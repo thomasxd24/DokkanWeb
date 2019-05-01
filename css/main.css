@@ -1,0 +1,31 @@
+.log_wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .log {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+
+  
+  /* styling */
+  .log_wrap {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 200px;
+    margin: 30px auto;
+    color: #fff;
+    background: #111;
+    border: #333;
+    line-height: 1.3;
+    font-family: monospace;
+  }
+
+  .log {
+    padding: 20px;
+    word-wrap: break-word;
+  }

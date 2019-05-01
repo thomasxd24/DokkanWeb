@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+
+  <title>DokkanWeb</title>
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">DokkanWeb</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="create.html">Create Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Load Account from transfer code</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+        <div class="log_wrap">
+            <div id="log" class="log"></div>
+          </div>
+
+      <div class="col-lg-12" hidden
+      >
+        <h1 class="mt-5">Load Account:</h1>
+        <textarea class="form-control" rows="7" id="comment"></textarea>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="col-lg-12" >
+          <div class="btn-group btn-group-lg btn-group-justified btn-block" role="group">
+              <a href="#" class="btn btn-primary" onclick="signup()">Stage</a>
+              <a href="#" class="btn btn-primary" onclick="area()">Area</a>
+              <a href="#" class="btn btn-primary" onclick="completequests()">Complete Quests</a>
+              <a href="#" class="btn btn-primary" onclick="completeevents()">Complete Event</a>
+              <a href="#" class="btn btn-primary" onclick="clash()">Clash</a>
+              <a href="#" class="btn btn-primary" onclick="dragonballs()">Dragon Balls</a>
+
+            </div>
+            <div class="btn-group btn-group-lg btn-group-justified btn-block" role="group">
+              <a href="#" class="btn btn-primary" onclick="omegafarm()">Omega Farm</a>
+              <a href="#" class="btn btn-primary" onclick="info()">Info</a>
+              <a href="#" class="btn btn-primary" onclick="team()">Team</a>
+              <a href="#" class="btn btn-primary" onclick="gift()">Gift</a>
+              <a href="#" class="btn btn-primary" onclick="transfer()">Transfer</a>
+              <a href="#" class="btn btn-primary" onclick="capacity()">capacity</a>
+              <a href="#" class="btn btn-primary" onclick="nameop()">Name</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="//cdn.rawgit.com/saribe/eModal/1.2.67/dist/eModal.min.js"></script>
+  <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+  <script src="js/dokkan/actions.js"></script>
+  <script src="js/console.js"></script>
+</body>
+
+</html>

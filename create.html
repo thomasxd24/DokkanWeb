@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+
+  <title>DokkanWeb - Create Account</title>
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">DokkanWeb</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="create.html">Create Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Load Account from transfer code</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+        <div class="log_wrap">
+            <div id="log" class="log"></div>
+          </div>
+
+      <div class="col-lg-12">
+        <h1 class="mt-5">Create Account:</h1>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Platform</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="platform">
+                    <option value="ios">iOS</option>
+                    <option value="android">Android</option>
+                  </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Region</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="region">
+                    <option value="global">Global</option>
+                    <option value="japan">Japan</option>
+                  </select>
+            </div>
+          </div>
+          
+        <button type="button" class="btn btn-primary" onclick="createaccount()">Create</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="//cdn.rawgit.com/saribe/eModal/1.2.67/dist/eModal.min.js"></script>
+  <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+  <script src="js/dokkan/actions.js"></script>
+  <script src="js/console.js"></script>
+</body>
+
+</html>
